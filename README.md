@@ -125,21 +125,7 @@ Tất cả các request sẽ đi qua **API Gateway** tại địa chỉ:
 
 ```
 http://localhost:3003
-```
 
-| Chức năng              | Phương thức | Endpoint         | Yêu cầu token |
-| ---------------------- | ----------- | ---------------- | ------------- |
-| **Auth**               |             |                  |               |
-| Đăng ký                | `POST`      | `/auth/register` | ❌ Không cần   |
-| Đăng nhập              | `POST`      | `/auth/login`    | ❌ Không cần   |
-| **Products**           |             |                  |               |
-| Lấy danh sách sản phẩm | `GET`       | `/products`      | ✅ Có          |
-| Thêm sản phẩm mới      | `POST`      | `/products`      | ✅ Có          |
-| **Orders**             |             |                  |               |
-| Tạo đơn hàng           | `POST`      | `/buy`        | ✅ Có          |
-| Xem danh sách đơn hàng | `GET`       | `/buy`        | ✅ Có          |
-
----
 
 ## 🧪 Chạy test
 
