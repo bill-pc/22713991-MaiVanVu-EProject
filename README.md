@@ -95,42 +95,6 @@ cd EProject-Phase-1
 #### 2️⃣ Tạo các file `.env` cần thiết
 
 Hệ thống sử dụng nhiều file `.env` để lưu biến môi trường.
-Bạn cần tạo các file sau (nếu chưa có):
-
-* **File `.env` ở thư mục gốc:**
-
-  ```env
-  RABBITMQ_USER="youruser"
-  RABBITMQ_PASS="yourpassword"
-  ```
-
-* **File `auth/.env`:**
-
-  ```env
-  PORT=3000
-  MONGODB_URI=mongodb://mongo-auth:27017/authdb
-  JWT_SECRET=It$eCr3tKey!@2025_MyApp#Auth
-  ```
-
-* **File `product/.env`:**
-
-  ```env
-  PORT=3001
-  MONGODB_URI=mongodb://mongo-product:27017/productdb
-  RABBITMQ_URI=amqp://myuser:mypassword@rabbitmq:5672
-  JWT_SECRET=It$eCr3tKey!@2025_MyApp#Auth
-  ```
-
-* **File `order/.env`:**
-
-  ```env
-  PORT=3002
-  MONGODB_URI=mongodb://mongo-order:27017/orderdb
-  RABBITMQ_URI=amqp://myuser:mypassword@rabbitmq:5672
-  JWT_SECRET=It$eCr3tKey!@2025_MyApp#Auth
-  ```
-
----
 
 #### 3️⃣ Xây dựng và chạy hệ thống với Docker Compose
 
