@@ -114,7 +114,6 @@ class ProductController {
     const product = await Product.findById(id);
     res.status(200).json(product);
   }
-  
 
 }
 
